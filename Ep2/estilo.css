@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+
+    #MENU{
+        color: rgb(10, 118, 10);
+    }
+    #redondo{
+        margin: 5px;
+        padding: 3px;
+        border-style: inset;
+        border-radius: 200px;
+        border-color: black;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        cursor: pointer;
+    }
+    #redondito{
+        margin: 5px;
+        padding: 3px;
+        border-style: inset;
+        border-radius: 200px;
+        color: white;
+        border-color: black;
+        background-color: black;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        cursor: pointer;
+    }
+
+    #caja1{
+        margin: 10px;
+        padding: 10px;
+        border-style: none;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        cursor: pointer;
+    }
+   #caja2{
+    height: 200%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   }
+   #caja3{
+        margin: 10px;
+        padding: 10px;
+        border-style: none;
+        align-items: center;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+   #caja4{
+        margin: 10px;
+        padding: 10px;
+        height: 10px;
+        border-style: none;
+        display: flexbox;
+        float: left;
+        cursor: pointer;
+   }
+   #caja5{
+    margin: 10px;
+        padding: 10px;
+        border-style: none;
+        align-items: center;
+        display: flex;
+        float: right;
+        cursor: pointer;
+   }
+   #caja6{
+    margin: 10px;
+        padding: 10px;
+        align-items: center;
+        display: flex;
+   }
+}

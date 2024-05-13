@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+
+    #menu{
+        color: rgb(10, 118, 10);
+    }
+    #redondo{
+        margin: 5px;
+        padding: 3px;
+        border-style: inset;
+        border-radius: 200px;
+        border-color: black;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        cursor: pointer;
+    }
+    #redondito{
+        margin: 5px;
+        padding: 3px;
+        border-style: inset;
+        border-radius: 200px;
+        color: white;
+        border-color: black;
+        background-color: black;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        cursor: pointer;
+    }
+
+    #caja1{
+        margin: 10px;
+        padding: 10px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        cursor: pointer;
+    }
+    #caja3{
+        margin: 10px;
+        padding: 10px;
+        align-items: center;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+   #caja4{
+        margin: 10px;
+        padding: 10px;
+        height: 10px;
+        display: flexbox;
+        float: left;
+   }
+   #caja5{
+    margin: 10px;
+        padding: 10px;
+        border-style: none;
+        align-items: center;
+        display: flex;
+        float: right;
+   }
+   #caja6{
+    margin: 10px;
+        padding: 10px;
+        align-items: center;
+        display: flex;
+   }
+   #pa>#bebidas{
+    align-items: left;
+    display: flexbox;
+    direction: rtl;
+    justify-content: left;
+    justify-items: left;
+   }
+   .contenedorcito {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu {
+    width: 200px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.menu li strong {
+    font-weight: bold;
+}
+
+.imagen {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+}
